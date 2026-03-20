@@ -13,3 +13,5 @@ yarn-error.log*
 # Ignorar slides de apresentação locais
 docs/slides.md
 docs/slides.pptx
+scripts/generate-pptx.ps1
+scripts/generate-pptx.sh
