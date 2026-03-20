@@ -95,3 +95,22 @@ Se quiser, eu posso:
 
 - Adicionar detecção automática de `API_URL` no app (detecta emulador / simulator / dispositivo físico).
 - Documentar passo a passo para Windows/macOS.
+- Gerar slides/PPTX a partir de `docs/slides.md` usando `pandoc`.
+
+### Gerar PPTX dos slides
+
+Se você quiser um arquivo PPTX para apresentar os slides, instale o `pandoc` e rode um dos scripts abaixo na raiz do projeto:
+
+PowerShell:
+
+```powershell
+.\scripts\generate-pptx.ps1
+```
+
+Bash/macOS/Linux:
+
+```bash
+./scripts/generate-pptx.sh
+```
+
+O PPTX gerado será escrito em `docs/slides.pptx`.

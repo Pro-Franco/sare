@@ -28,15 +28,6 @@ export default function LoginScreen({ goTo, goBack }: any) {
   }
 
   return (
-    <View style={{ padding: 20 }}>
-      <Text>Email</Text>
-      <TextInput value={email} onChangeText={setEmail} />
-
-      <Text>Senha</Text>
-      <TextInput value={senha} onChangeText={setSenha} secureTextEntry />
-
-      <Button title="Login" onPress={login} />
-      <Button title="Cadastrar" onPress={() => goTo && goTo("/cadastro")} />
-    </View>
+    
   )
 }
